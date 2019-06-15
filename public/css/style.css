@@ -1,0 +1,49 @@
+.header-image {
+  background: url("../Images/paper.jpeg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  height: 100vh;
+}
+
+.navlinks {
+  width: 100%;
+  z-index: 1;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.navbutton {
+  background-color: #ff4136;
+  color: #ffffff;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+.navbutton:hover {
+  background-color: #4bffa5;
+  color: #040f3d;
+  transform: rotateZ(3deg);
+}
+.custom-hr {
+  background-color: #cfd4d1;
+}
+
+.custom-hr2 {
+  background-color: #f9f9f9;
+}
+
+.note {
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+ion-icon {
+  color: red;
+  font-size: 28px;
+}
